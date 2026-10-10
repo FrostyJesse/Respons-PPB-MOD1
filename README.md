@@ -1,6 +1,8 @@
-# Responsi Modul 1 — REST API Peminjaman Buku Perpustakaan
+# 📚 Responsi Modul 1 — REST API Peminjaman Buku Perpustakaan
 
-Ini adalah project REST API sederhana buat sistem peminjaman buku perpustakaan. Dibuat pakai **Node.js**, **Express.js**, dan **Supabase** sebagai database-nya.
+REST API untuk sistem peminjaman buku perpustakaan. Dibangun menggunakan **Node.js**, **Express.js**, dan **Supabase** (PostgreSQL) sebagai database cloud-nya. API ini mendukung operasi CRUD peminjaman buku lengkap dengan kalkulasi denda otomatis.
+
+> 🚀 **Live Demo:** [https://responsi-ppb-mod-1-rho.vercel.app](https://responsi-ppb-mod-1-rho.vercel.app)
 
 ---
 
@@ -113,7 +115,10 @@ Ada 3 tabel yang dipakai:
 
 ## Endpoint API
 
-Base URL: `http://localhost:3000`
+| Environment | Base URL |
+|-------------|----------|
+| **Local** | `http://localhost:3000` |
+| **Production** | `https://responsi-ppb-mod-1-rho.vercel.app` |
 
 ### GET `/loans`
 Ambil semua data peminjaman. Bisa difilter pakai query parameter.
@@ -230,8 +235,22 @@ Kalau error:
 
 ---
 
+## Deployment
+
+Project ini di-deploy menggunakan **Vercel**.
+
+🔗 **Live URL:** [https://responsi-ppb-mod-1-rho.vercel.app](https://responsi-ppb-mod-1-rho.vercel.app)
+
+Konfigurasi deployment ada di file `vercel.json`.
+
+---
+
 ## Author
 
-**Gilang**
+**Timothy** — [@FrostyJesse](https://github.com/FrostyJesse)
 
-> maaf mas kalau yang push ke Git namanya Jedan, soalnya laptop saya masih rusak mas, jadi emang laptop nya sharing gitu hehe
+📁 Repository: [github.com/FrostyJesse/Respons-PPB-MOD1](https://github.com/FrostyJesse/Respons-PPB-MOD1)
+
+---
+
+> Dibuat sebagai bagian dari Responsi Praktikum Pemrograman Berbasis Platform (PPB) — Modul 1

@@ -29,8 +29,8 @@ npm install
 Bikin file `.env` di root folder (sejajar sama `index.js`), isinya:
 
 ```env
-SUPABASE_URL=https://xxxxxxxxxx.supabase.co
-SUPABASE_ANON_KEY=isi_dengan_anon_key_kamu
+SUPABASE_URL=[https://xxxxxxxxxx.supabase.co](https://lqfjrzbznzysdjimqfhb.supabase.co/rest/v1/)
+SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxxZmpyemJ6bnp5c2RqaW1xZmhiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTE2MzMwNTUsImV4cCI6MjEwNzIwOTA1NX0.4N-4WnDeOaD2jE9AXLv-Bp8OlhtTbVJU4ONBxMaL_m8
 PORT=3000
 ```
 
